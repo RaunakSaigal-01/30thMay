@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .header{
+            color: white;
+            background-color: rgb(5, 5, 86);
+            height: 40px;
+            padding-top: 15px;
+        }
+        .side{
+            background-color: rgb(67, 217, 67);
+            color: white;
+            display: inline-block;
+            width: 160px;
+            height: 90vh;
+            margin: 0;
+            padding: 0;
+            vertical-align: top;
+            
+        }
+        ul{
+            list-style: none;
+            margin: 0;
+            padding-left :10px;
+        }
+        button{
+            background-color: rgba(255,255,255,0.5);
+            color: white;
+            border: 0;
+            bottom: -5px;
+        }
+        .BigContd{
+            flex: 1;
+            padding: 40px;
+        }
+        .stats{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        p{
+            color: rgb(67,217,67);
+            text-align: center;
+        }
+        h2{
+            color: rgb(67,217,67);
+            text-align: center;
+        }
+        .Contd{
+            border-radius: 10px;
+            box-shadow: 0px 2px 6px  rgba(0,0,0,0.15);
+            width: 450px;
+            text-align: center;
+            margin-left: 30px;
+            padding-top: 15px;
+        }
+        .container{
+            display: flex;
+
+        }
+    </style>
+</head>
+<body>
+    <center><div class="header">Ethnus- MERN Full Stack Internship Training</div></center>
+    <div class="container">
+    <div class="side">
+        <h4>School Dashboard</h4>
+        <ul>
+            <li><button>Dashboard</button></li>
+            <li><button>Students</button></li>
+            <li><button>Teachers</button></li>
+            <li><button>Classes</button></li>
+            <li><button>Exams</button></li>
+            <li><button>Library</button></li>
+            <li><button>Settings</button></li>
+        </ul>
+    </div>
+    <div class="BigContd">
+            <h2>Welcome to the School Dashboard</h2>
+            <div class="stats">
+            <div class="Contd">Total Students <br> <p>500</p></div>
+            <div class="Contd">Total Teachers <br> <p>50</p></div>
+            <div class="Contd">Classes <br> <p>20</p></div>
+            <div class="Contd">Upcoming Exams <br> <p>5</p></div>
+            </div>
+    </div>
+    </div>
+</body>
+</html>
